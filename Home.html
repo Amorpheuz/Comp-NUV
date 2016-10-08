@@ -17,6 +17,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
 	
 	<!-- CSS Files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/material-kit.css" rel="stylesheet"/>
 	<link type="text/css" rel="stylesheet" href="style.css">
@@ -24,9 +25,18 @@
 	body{
 		background-image:url("background.jpg");
 	}
-	.card{
+	.card {
+		/* Add shadows to create the "card" effect */
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		transition: 0.3s;
 		text-align: Justify;
 		padding:10px;
+		border-radius: 5px; /* 5px rounded corners */
+	}
+
+	/* On mouse-over, add a deeper shadow */
+	.card:hover {
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 	}
 	</style>
 </head>
@@ -81,19 +91,23 @@
 				</div>
 				<div class="col-md-5">
 					<div class="row">
-						<div class="card">
-							<div class="card-block">
-								<h1>About US </h1>
-								<p>Computers@NUV is a group of computer enthusiasts where they can get together and work on various projects, host computer related events  or just build their knowledge on the IT field out there in the market. We host regular workshops, guest lectures and competitive events for the IT loving crowd free of cost. We are based out of students studying at Navrachana University pursuing their careers in various IT related courses.</p>
+						<div class="col-md-12">
+							<div class="card">
+								<div class="card-block">
+									<h3>About US </h3>
+									<p>Computers@NUV is a group of computer enthusiasts where they can get together and work on various projects, host computer related events  or just build their knowledge on the IT field out there in the market. We host regular workshops, guest lectures and competitive events for the IT loving crowd free of cost. We are based out of students studying at Navrachana University pursuing their careers in various IT related courses.</p>
+								</div>
 							</div>
 						</div>
-						<br><br><br><br>
 					</div>
+					<br><br>
 					<div class="row">
-						<div class="card">
-							<div class="card-block">
-								<h1>Lorem Ipsum </h1>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat lectus a fermentum venenatis. Ut lobortis cursus dolor, et ullamcorper sem faucibus nec. Maecenas faucibus id ante eget placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam sit amet eros nisl. Phasellus malesuada ultrices aliquet. Etiam vitae ipsum bibendum, lobortis libero sed, vestibulum dolor. Pellentesque augue enim, interdum eget mauris vitae, fringilla eleifend magna. Maecenas scelerisque porta libero, vel ornare elit vestibulum eu. Donec sodales, augue vel vehicula bibendum, massa diam tincidunt enim, a mattis eros libero ac magna. Maecenas porttitor enim lacinia nibh vehicula, vitae laoreet nunc consectetur. Ut sodales mi nec justo porttitor vehicula. Donec dignissim semper nisi. Vivamus pretium ornare eros in commodo. </p>
+						<div class="col-md-12">
+							<div class="card">
+								<div class="card-block">
+									<h3>Lorem Ipsum </h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat lectus a fermentum venenatis. Ut lobortis cursus dolor, et ullamcorper sem faucibus nec. Maecenas faucibus id ante eget placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam sit amet eros nisl. Phasellus malesuada ultrices aliquet. Etiam vitae ipsum bibendum, lobortis libero sed, vestibulum dolor. Pellentesque augue enim, interdum eget mauris vitae, fringilla eleifend magna. Maecenas scelerisque porta libero, vel ornare elit vestibulum eu. Donec sodales, augue vel vehicula bibendum, massa diam tincidunt enim, a mattis eros libero ac magna. Maecenas porttitor enim lacinia nibh vehicula, vitae laoreet nunc consectetur. Ut sodales mi nec justo porttitor vehicula. Donec dignissim semper nisi. Vivamus pretium ornare eros in commodo. </p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -102,7 +116,7 @@
 				<div class="col-md-5">
 					<div class="card">
 							<div class="card-block">
-								<h1>Events</h1>
+								<h3>Events</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat lectus a fermentum venenatis. Ut lobortis cursus dolor, et ullamcorper sem faucibus nec. Maecenas faucibus id ante eget placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam sit amet eros nisl. Phasellus malesuada ultrices aliquet. Etiam vitae ipsum bibendum, lobortis libero sed, vestibulum dolor. Pellentesque augue enim, interdum eget mauris vitae, fringilla eleifend magna. Maecenas scelerisque porta libero, vel ornare elit vestibulum eu. Donec sodales, augue vel vehicula bibendum, massa diam tincidunt enim, a mattis eros libero ac magna. Maecenas porttitor enim lacinia nibh vehicula, vitae laoreet nunc consectetur. Ut sodales mi nec justo porttitor vehicula. Donec dignissim semper nisi. Vivamus pretium ornare eros in commodo.
 
 									Mauris varius libero neque, ut semper tellus suscipit eu. Aliquam at nibh felis. Fusce iaculis pharetra viverra. Morbi suscipit egestas placerat. Nullam id nibh a risus placerat mattis quis a sem. Maecenas risus ligula, vestibulum ut massa eget, facilisis vestibulum magna. Pellentesque vel odio non ipsum euismod lobortis venenatis nec ligula.
@@ -110,7 +124,7 @@
 									Donec tristique eros id nibh maximus, in cursus lacus rutrum. Nam dapibus velit sed dictum lacinia. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus ut cursus erat. Donec lobortis mauris nec ligula consequat pretium facilisis et est. Morbi a enim nec sem dignissim lobortis. Mauris luctus ullamcorper eros nec feugiat. Fusce varius ullamcorper diam, eget vehicula est laoreet id. Integer aliquam metus vel risus tristique tempor. Etiam tempor augue a semper egestas. Nam vestibulum risus neque.
 
 
-									Ut ultrices nisi condimentum nisl mollis, a imperdiet neque fringilla. Quisque id pellentesque ligula. Phasellus eget mauris blandit dolor tristique posuere. Fusce fermentum vel orci ac blandit. Phasellus fermentum eros sit amet rhoncus ullamcorper. Cras congue ut purus at efficitur. Maecenas porttitor magna erat, et tincidunt turpis venenatis tincidunt. Morbi eget sagittis elit. Quisque egestas, ipsum in ultricies facilisis, nunc diam ultrices velit, nec elementum turpis arcu et mi. Nulla sed sagittis metus, ut volutpat urna.<br><br></p>
+									Ut ultrices nisi condimentum nisl mollis, a imperdiet neque fringilla. Quisque id pellentesque ligula. Phasellus eget mauris blandit dolor tristique posuere. Fusce fermentum vel orci ac blandit. Phasellus fermentum eros sit amet rhoncus ullamcorper. <br><br></p>
 							</div>
 						</div>
 				</div>
@@ -118,12 +132,42 @@
 				</div>
 				
 			</div>
+			<br><br>
+			<div class="row">
+				<div class="col-md-1">
+				
+				</div>
+				<div class="col-md-5">
+					<div class="card" style="padding:2px;">
+						<div id="map">
+							<iframe frameborder="0" height="250px" width="100%" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJTXUH23fIXzkRMJ-7PwsvY64&key=AIzaSyBVJc0Hg-A7NKo_jYrddVxNWg8R-Jr3ekQ" allowfullscreen ></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2" >
+					<div class="card" >
+						<div class="card-block">
+							<h3><p><span class="glyphicon glyphicon-pushpin"></span>&nbsp;Computers@NUV,<br>Navrachana University,<br>Vasna Bhayli Road,<br> Vadodara,<br> Gujarat 391410.</p></h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3" >
+					<div class="card" >
+						<div class="card-block">
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1">
+				
+				</div>
+				
+			
+			</div>
 		</div>
-		
+		<br><br>
 <!--footer-->
 	<footer>
-		
-			<iframe width="90%" height="150%" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJTXUH23fIXzkRMJ-7PwsvY64&key=AIzaSyBVJc0Hg-A7NKo_jYrddVxNWg8R-Jr3ekQ" allowfullscreen ></iframe>
         <p class="p"> &copy; Copyright 2016 - Computers&#64;NUV, Navrachna University, Baroda
           <br>
           Computers&#64;NUV is an independent group of faculties and students of Navrachna University.</p>
