@@ -21,7 +21,9 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/css/material-kit.css" rel="stylesheet"/>
 	<link type="text/css" rel="stylesheet" href="style.css">
+	<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
 	<style>
+	
 	body{
 		background-image:url("background.jpg");
 	}
@@ -77,14 +79,45 @@
 	</div>
 </nav>
 <!-- end navbar -->
+<script>
+$({countNum: $('#counter').text()}).animate({countNum: 501}, {
+  duration: 7000,
+  easing:'linear',
+  step: function() {
+    $('#counter').text(Math.floor(this.countNum));
+  },
+  
+  
+});
 
+</script>
 <div class="wrapper">
 	
 	<div class="header" style="padding:20%;" align="center">
 		<p style="font-family: 'Share Tech Mono', monospace; color:white; font-size: 750%;">
 			Computers@NUV
 		</p><br>
-		<button class="btn btn-danger" style="font-family: 'Share Tech Mono', monospace;font-size:150%;">Join Today!</button>
+
+		<button class="btn btn-danger" style="font-family: 'Share Tech Mono', monospace;font-size:150%;">Join Today!</button><br>
+			<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+				
+				</div>
+				<div class="col-md-5">
+					<div class="card">
+					<br>
+					<br>
+						<div id="counter" style="width: 100px; float:left; height:100px; margin:20px; font-family:'Roboto', serif;  font-size:55px;">0</div><div style="width: 150px; float:left; height:100px; margin:20px; font-family:'Roboto', serif;  font-size:40px;">+ Events</div>
+						<br>
+						<br>
+						
+					</div>
+				</div>
+			
+			</div>
+			</div>
+				
 	</div>
 	<!-- you can use the class main-raised if you want the main area to be as a page with shadows -->
 		<div class="container-fluid">
@@ -140,10 +173,7 @@
 				
 				</div>
 				<div class="col-md-10">
-						<script src="http://assets.juicer.io/embed.js" type="text/javascript"></script>
-						<link href="http://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
-						<ul class="juicer-feed" data-feed-id="computers-nuv" data-pages='1' data-per='15'><h1 class="referral"><a href="http://www.juicer.io"><div class="card card-block">Powered by Juicer</div></a></h1></ul>
-						<!--Fourth, if you are developing your site locally, and testing it by just opening the HTML page in your browser, it probably won't work. This is because of how Juicers embed code works. The two ways around this are to run your site on a local server (try something like this) or to change your embed code from: Be careful though, if your site is HTTPS (SSL) as you will run into issues when you deploy (you might want to change the http to https). -->
+					<script async src="https://d36hc0p18k1aoc.cloudfront.net/pages/a5b5e5.js"></script><div class="tintup" data-id="mail2ypd" data-columns="" data-expand="true"    data-paginate="true" data-personalization-id="835293" style="height:500px;width:100%;"><a href="http://www.tintup.com" style="width:118px;height:31px;background-image:url(//d33w9bm0n1egwm.cloudfront.net/assets/logos/poweredbytintsmall.png);position:absolute;bottom:10px;right: 20px;text-indent: -9999px;z-index:9;">social media aggregator</a></div>	
 				</div>
 				<div class="col-md-1">
 				
