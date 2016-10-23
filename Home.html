@@ -60,7 +60,7 @@
 		padding:10px;
 	}
 	#counter1,#counter2,#counter3{
-		color: red;
+		color:#03A9F4;
 		font-size: 55px;
 	}
 	div{
@@ -108,7 +108,7 @@
 <body>
 
 <!-- Navbar will come here -->
-<nav class="navbar navbar-danger navbar-transparent navbar-fixed-top navbar-color-on-scroll" role="navigation" style="color:black">
+<nav class="navbar navbar-success navbar-transparent navbar-fixed-top navbar-color-on-scroll" role="navigation" style="color:black">
 	<div class="container-fluid">
     	<div class="navbar-header">
     		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -120,12 +120,15 @@
     		<a class="navbar-brand" href="#"><img src="logo.png"></a>
     	</div>
 		<form class="navbar-form navbar-right" role="search" style="padding-top:10px;">
-			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
-			</div>
-			<button type="submit" class="btn btn-danger">Submit</button>
+				<div class="form-group has-info">
+					<span class="form-group-addon">
+						<i class="material-icons">search</i>
+					</span>
+					<input type="text" class="form-control">
+				</div>
+			<button type="submit" class="btn btn-info">Submit</button>
 		</form>
-		<p class="navbar-text navbar-right" style="padding-top:5px;"> <i class="material-icons">search</i> </p>
+		
     	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding: 10px;">
     		<ul class="nav navbar-nav">
 				<li class="active"><a href="#">Home</a></li>
@@ -146,7 +149,7 @@
 			Computers@NUV
 		</p><br><br>
 
-		<button class="btn btn-danger" style="font-family: 'Share Tech Mono', monospace;font-size:150%;">Join Today!</button><br>
+		<button class="btn btn-info" style="font-family: 'Share Tech Mono', monospace;font-size:150%;">Join Today!</button><br>
 
 	</div>
 	<!-- you can use the class main-raised if you want the main area to be as a page with shadows -->
