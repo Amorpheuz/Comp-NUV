@@ -49,12 +49,13 @@
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 		transition: 0.3s;
 		text-align: Justify;
-		border-radius: 5px; /* 5px rounded corners */
+		border-radius: 0px; /* 5px rounded corners */
 	}
 
 	/* On mouse-over, add a deeper shadow */
 	.card:hover {
 			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
 	}
 	.card-block{
 		padding:10px;
@@ -72,6 +73,11 @@
  			 -webkit-transform: translateY(-50%);
  			 -ms-transform: translateY(-50%);
  			 transform: translateY(50%);
+	}
+	.cntr{
+		display: flex;	/*Flexbox*/
+		justify-content: center; /* align horizontal */
+		align-items: center; /* align vertical */
 	}
 	</style>
 	<script>
@@ -134,7 +140,7 @@
 <!-- end navbar -->
 <div class="wrapper parallax1">
 
-	<div class="header" style="padding:7% 20% 10% 20%;" align="center" >
+	<div class="header" style="padding:65px 20% 10% 20%;" align="center" >
 
 		<img src="logo.png" height="30%" width="70%" style="padding-top:5%;">
 		<br><br>
@@ -161,7 +167,15 @@
 					<br><br>
 
 					<div class="row">
-						<!-- Team Card here -->
+						<div class="col-md-12">
+							<div class="card">
+								<div class="card-block">
+									<h3>Our Team!</h3>
+									<p>You ask what makes Computers@NUV so fun to be a part of? Its the team! Click on that flashy button down below to find out more about the teams that form Computers@NUV, who knows you might come across one that will make your college life even more memorable!</p><br>
+									<button class="btn btn-info btn-block" style="font-family: 'Share Tech Mono', monospace;font-size:150%;">Teh Core of C@N</button><br>
+								</div>
+							</div> 
+						</div>
 					</div>
 
 				</div>
@@ -237,14 +251,14 @@
 				<div class="col-md-5">
 					<div class="card">
 						<div id="map">
-							<iframe frameborder="0" height="382px" width="100%" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJTXUH23fIXzkRMJ-7PwsvY64&key=AIzaSyBVJc0Hg-A7NKo_jYrddVxNWg8R-Jr3ekQ" allowfullscreen   style="border-radius:10px;"></iframe>
+							<iframe frameborder="0" height="325px" width="100%" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJTXUH23fIXzkRMJ-7PwsvY64&key=AIzaSyBVJc0Hg-A7NKo_jYrddVxNWg8R-Jr3ekQ" allowfullscreen ></iframe>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3" >
 					<div class="card">
-						<div class="card-block" style="padding: 42px;">
-							<h2><p><span class="glyphicon glyphicon-pushpin"></span>&nbsp;Computers @NUV,<br>Navrachana University,<br>Vasna Bhayli Road,<br> Vadodara,<br> Gujarat 391410.</p></h2>
+						<div class="card-block cntr" style="height: 325px;">
+							<h3><p><span class="glyphicon glyphicon-pushpin"></span>&nbsp;Computers @NUV,<br>Navrachana University,<br>Vasna Bhayli Road,<br> Vadodara,<br> Gujarat 391410.</p></h3>
 						</div>
 					</div>
 				</div>
@@ -259,7 +273,7 @@
 							</div>
 							<div class="row">
 								<div class="col-md-12">
-									<h3>@ComputerAtNUV</h3>
+									<h4>@ComputerAtNUV</h4>
 								</div>
 							</div>
 							<div class="row">
@@ -269,7 +283,7 @@
 							</div>
 							<div class="row">
 								<div class="col-md-12">
-									<h3>ComputerAtNUV</h3>
+									<h4>ComputerAtNUV</h4>
 								</div>
 							</div>
 							<div class="row">
@@ -279,7 +293,7 @@
 							</div>
 							<div class="row">
 								<div class="col-md-12">
-									<h3>ComputerAtNUV</h3>
+									<h4>ComputerAtNUV</h4>
 								</div>
 							</div>
 						</center>
@@ -296,6 +310,7 @@
 
 		</div>
 		<br><br>
+	</div>
 <!--footer-->
 	<footer>
         <p class="p"> &copy; Copyright 2016 - Computers&#64;NUV, Navrachna University, Baroda
