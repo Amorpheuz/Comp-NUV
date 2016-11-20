@@ -24,13 +24,7 @@
 	<!--Scripts-->
 	<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
 	<style>
-
-	.body{
-		color:black;
-	}
-
 	/*Paralex */
-
 	.parallax1 {
 			/* The image used */
 			background-image: url('background5.png');
@@ -45,36 +39,6 @@
 			background-size: cover;
 			padding: 0px;
 	}
-	.card {
-		/* Add shadows to create the "card" effect */
-		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-		transition: 0.3s;
-		text-align: Justify;
-		border-radius: 0px; /* 5px rounded corners */
-	}
-
-	/* On mouse-over, add a deeper shadow */
-	.card:hover {
-			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-
-	}
-	.card-block{
-		padding:10px;
-	}
-	#counter1,#counter2,#counter3{
-		color:#03A9F4;
-		font-size: 55px;
-	}
-	div{
-		vertical-align:middle;
-	}
-	.mid{
-			 position: relative;
-  			 top: 50%;
- 			 -webkit-transform: translateY(-50%);
- 			 -ms-transform: translateY(-50%);
- 			 transform: translateY(50%);
-	}
 	.cntr{
 		display: flex;	/*Flexbox*/
 		justify-content: center; /* align horizontal */
@@ -83,7 +47,7 @@
 	</style>
 	<script>
 		$({countNum: $('#counter1').text()}).animate({countNum: 501}, {
-  		duration: 2049,
+			duration: 2049,
   		easing:'linear',
  		step: function() {
     		$('#counter1').text(Math.floor(this.countNum));
@@ -175,7 +139,7 @@
 									<p>You ask what makes Computers@NUV so fun to be a part of? Its the team! Click on that flashy button down below to find out more about the teams that form Computers@NUV, who knows you might come across one that will make your college life even more memorable!</p><br>
 									<button class="btn btn-info btn-block" style="font-family: 'Share Tech Mono', monospace;font-size:150%;">Teh Core of C@N</button><br>
 								</div>
-							</div> 
+							</div>
 						</div>
 					</div>
 
@@ -202,7 +166,7 @@
 			<br><br>
 			<div class="row">
 				<div class="col-md-2">
-					
+
 				</div>
 				<div class="col-md-3">
 					<div class="card">
@@ -216,7 +180,7 @@
 						<div class="card-block" style="margin:20px 0px 10px 0px;">
 							<center><div id="counter3">0</div><br><br><div style="font-size: 300%;">+Events</div></center>
 						</div>
-					</div>	
+					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="card">
@@ -226,8 +190,8 @@
 					</div>
 				</div>
 				<div class="col-md-2">
-					
-				</div>				
+
+				</div>
 			</div>
 			<br><br>
 			<div class="row">
