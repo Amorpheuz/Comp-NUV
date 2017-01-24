@@ -1,4 +1,6 @@
+
 <!doctype html>
+
 <html lang="en">
 
 <head>
@@ -168,7 +170,7 @@
 						<div class="card-block">
 							<h3>Events</h3>
 							<p>
-								<h1 align="center"><br><br><small>Coming Soon!</small></h1><br><br><br><br><br><br><br></p>
+								<h1 align="center"><br><br><small><?php include_once('event/functions.php'); ?></small></h1><br><br><br><br><br><br><br></p>
 						</div>
 					</div>
 				</div>
