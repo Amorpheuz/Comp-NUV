@@ -1,6 +1,6 @@
 
 <!doctype html>
-
+<?php include_once('functions.php'); ?>
 <html lang="en">
 
 <head>
@@ -26,6 +26,7 @@
 	<link type="text/css" rel="stylesheet" href="style.css">
 	<!--Scripts-->
 	<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+	<script src="jquery.min.js"></script>
 	<style>
 		/*Paralex */
 
@@ -168,9 +169,9 @@
 				<div class="col-md-5">
 					<div class="card">
 						<div class="card-block">
-							<h3>Events</h3>
-							<p>
-								<h1 align="center"><br><br><small><?php include_once('event/functions.php'); ?></small></h1><br><br><br><br><br><br><br></p>
+							<div id="calendar_div">
+								<?php echo getCalender(); ?>
+							</div>
 						</div>
 					</div>
 				</div>
