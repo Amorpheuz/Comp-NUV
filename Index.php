@@ -113,10 +113,8 @@
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="#">Gallery</a></li>
-					<li><a href="#contacts">Contact</a></li>
 					<li><a href="team.html">Team</a></li>
-
+					<li><a href="#contacts">Contact</a></li>
 				</ul>
 			</div>
 
