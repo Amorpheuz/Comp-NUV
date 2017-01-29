@@ -108,13 +108,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
     		</button>
-				<a class="navbar-brand" href="index.html"><b>Computers@NUV</b></a>
+				<a class="navbar-brand" href="index.php"><b>Computers@NUV</b></a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li><a href="#">Gallery</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#contacts">Contact</a></li>
 					<li><a href="team.html">Team</a></li>
 
 				</ul>
@@ -239,7 +239,7 @@
 				<div class="col-md-1">
 
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4" id="contacts">
 					<div class="card">
 						<div id="map">
 							<iframe frameborder="0" height="325px" width="100%" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJTXUH23fIXzkRMJ-7PwsvY64&key=AIzaSyBVJc0Hg-A7NKo_jYrddVxNWg8R-Jr3ekQ" allowfullscreen></iframe>
@@ -248,8 +248,8 @@
 				</div>
 				<div class="col-md-3">
 					<div class="card">
-						<div class="card-block cntr" style="height: 325px;">
-							<h3><p><span class="glyphicon glyphicon-pushpin"></span>&nbsp;Computers @NUV,<br>Navrachana University,<br>Vasna Bhayli Road,<br> Vadodara,<br> Gujarat 391410.</p></h3>
+						<div class="card-block cntr" style="height: 375px;">
+							<h3><p><span class="glyphicon glyphicon-pushpin"></span>&nbsp;Computers @NUV,<br>Navrachana University,<br>Vasna Bhayli Road,<br> Vadodara,<br> Gujarat 391410.  <br><br> Niral Bhagat: +91 90330 90448<br>E-mail: computers@nuv.ac.in</p></h3>
 						</div>
 					</div>
 				</div>
