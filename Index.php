@@ -128,7 +128,7 @@
 			<img src="logo.png" height="30%" width="70%" style="padding-top:5%;">
 			<br><br>
 
-			<button class="btn btn-info" style="font-family: 'Share Tech Mono', monospace;font-size:150%;">Join Today!</button><br>
+			<button class="btn btn-info disabled" style="font-family: 'Share Tech Mono', monospace;font-size:150%;">Join Today!</button><br>
 
 		</div>
 		<!-- you can use the class main-raised if you want the main area to be as a page with shadows -->
