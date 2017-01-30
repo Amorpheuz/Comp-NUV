@@ -6,9 +6,9 @@ $dbPassword = '';
 $dbName = 'nuvevents';*/
 
 $dbHost = 'localhost';
-$dbUsername = '';
+$dbUsername = 'root';
 $dbPassword = '';
-$dbName = '';
+$dbName = 'nuvevents';
 //Connect and select the database
 $db = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
 

@@ -97,7 +97,6 @@
 </head>
 
 <body>
-
 	<!-- Navbar will come here -->
 	<nav class="navbar navbar-warning navbar-transparent navbar-fixed-top navbar-color-on-scroll" role="navigation" style="color:black">
 		<div class="container-fluid">
@@ -108,7 +107,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
     		</button>
-				<a class="navbar-brand" href="index.php"><b>Computers@NUV</b></a>
+				<a class="navbar-brand" href="Index.php"><b>Computers@NUV</b></a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -302,14 +301,12 @@
 		</div>
 		<!--footer-->
 		<footer>
-			<p class="p"> &copy; Copyright 2016 - Computers&#64;NUV, Navrachna University, Baroda
+			<p class="p"> &copy; Computers&#64;NUV, Navrachna University, Vadodara
 				<br> Computers&#64;NUV is an independent group of faculties and students of Navrachna University.</p>
 
 			<a href="https://www.facebook.com/ComputersatNUV-1752470228342074/" target="_blank"><img class="img_height" src="fb_icon.png"></a>
 			<a href="https://www.instagram.com/computersatnuv/" target="_blank"> <img class="img_height" src="ig_icon.png"></a>
 			<a href="https://twitter.com/ComputersAtNUV" target="_blank"><img class="img_height" src="twitter_icon.png"></a>
-			<a href="#"><img class="img_height" src="gplus_icon.png" target="_blank"></a>
-
 
 		</footer>
 
