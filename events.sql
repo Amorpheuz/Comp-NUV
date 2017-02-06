@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `codexworld`
+-- Database: `nuvevents`
 --
 
 -- --------------------------------------------------------
@@ -40,11 +40,8 @@ CREATE TABLE IF NOT EXISTS `events` (
 --
 
 INSERT INTO `events` (`id`, `title`, `date`, `created`, `modified`, `status`) VALUES
-(1, 'Internet of Things World Forum', '2015-11-12', '2015-11-09 06:15:17', '2015-11-09 06:15:17', 1),
-(2, 'The Future of Money and Technology Summit', '2015-11-26', '2015-11-09 06:15:17', '2015-11-09 06:15:17', 1),
-(3, 'Chrome Dev Summit', '2015-11-26', '2015-11-09 06:15:17', '2015-11-09 06:15:17', 1),
-(4, 'The Lean Startup Conference', '2015-11-17', '2015-11-09 06:15:17', '2015-11-09 06:15:17', 1),
-(5, 'Web Submit for Developers', '2015-11-17', '2015-11-09 06:15:17', '2015-11-09 06:15:17', 1);
+(1, 'TechNUVate', '2017-02-25', '2015-11-09 06:15:17', '2015-11-09 06:15:17', 1),
+(2, 'TechNUVate', '2017-02-26', '2015-11-09 06:15:17', '2015-11-09 06:15:17', 1);
 
 --
 -- Indexes for dumped tables

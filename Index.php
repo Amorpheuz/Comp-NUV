@@ -124,7 +124,7 @@
 
 		<div class="header" style="padding:65px 20% 10% 20%;" align="center">
 
-			<img src="logo.png" height="30%" width="70%" style="padding-top:5%;">
+			<img src="logo.png" height="30%" width="70%" style="padding-top:2%;">
 			<br><br>
 
 			<button class="btn btn-info disabled" style="font-family: 'Share Tech Mono', monospace;font-size:150%;">Join Today!</button><br>
